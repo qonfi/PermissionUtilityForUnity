@@ -11,4 +11,4 @@ Request や IsPermitted を呼ぶことでパーミッションをリクエス�
 
 パーミッションの種類は AndroidUtility.Permission に列挙しておいた。
 
-.java は参考に置いただけ。
+.java は参考に置いただけ( aar の中身)。
