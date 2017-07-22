@@ -56,9 +56,6 @@ public class Utility {
         Activity activity = UnityPlayer.currentActivity;
         Context context = activity.getApplicationContext();
 
-        // テスト用
-        permission = Manifest.permission.ACCESS_FINE_LOCATION;
-
         // サポートライブラリを使用しないパーミッション確認
         int result = context.checkCallingOrSelfPermission(permission);
 
@@ -71,6 +68,6 @@ public class Utility {
 
 
     public static String test(){
-        return "Test 13:12";
+        return "Test 14:09";
     }
 }
