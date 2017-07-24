@@ -13,7 +13,7 @@ Request や IsPermitted を呼ぶことでパーミッションをリクエス�
 
   AndroidManifest.xml
     一度Android向けにプロジェクトをビルドすると、
-    プロジェクトフォルダ/Temp/StagingArea に AndroidManifest.xml が作られるのでそれを使うと良い。
+    プロジェクトフォルダ/Temp/StagingArea に AndroidManifest.xml が作られるのでそれをコピーして使うと良い。
     Assets/Plugins/Android フォルダに置くことで Unity が使うものとマージされるらしい。
 
 
