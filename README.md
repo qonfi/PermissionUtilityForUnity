@@ -4,10 +4,13 @@ Android Permission Utility for Unity
 
 1. aar ファイルを Unity の Assets/Plugins/Android フォルダに置く。
 2. AndroidManifest.xml に、使用するパーミッションを宣言しておき、同じく Android フォルダに置く。
-3. PermissionUtility.cs に書いてあるユーティリティクラスを使う。
+3. unitypackage をプロジェクトにインポートする。
+4. AndroidPermissionUtility.cs に書いてあるユーティリティクラスを使う。
 
 
-AndroidUtility.PermissionUtility クラスの
+unitypackage の中身は、AndroidPermissionUtility と AndroidPermission というふたつのクラス。
+
+AndroidUtility.AndroidPermissionUtility クラスの
 Request や IsPermitted を呼ぶことでパーミッションをリクエストしたり確認したりする。
 
 
@@ -17,7 +20,7 @@ Request や IsPermitted を呼ぶことでパーミッションをリクエス�
     Assets/Plugins/Android フォルダに置くことで Unity が使うものとマージされるらしい。
 
 
-パーミッションの種類は AndroidUtility.Permission に列挙しておいた。
+パーミッションの種類は AndroidUtility.AndroidPermission に列挙しておいた。
 
 
 .xml は参考に置いただけ。
